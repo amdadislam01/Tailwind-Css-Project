@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Tailwind Css Mini Project</title>
+</head>
+
+<body class="font-[roboto]">
+    <!-- Navbar Strat -->
+    <div class="flex justify-between items-center w-[80%] mx-auto mt-8">
+        <div>
+            <img src="Img/Logo/logo.png" class="w-[200px]" alt="">
+        </div>
+        <div class="hidden sm:block">
+            <a class="font-medium mr-10" href="">About us</a>
+            <a class="font-medium mr-10" href="">Product</a>
+            <a class="font-medium mr-10" href="">Home</a>
+            <a class="font-medium mr-10" href="">Contact us</a>
+        </div>
+        <div class="block sm:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Banner strats -->
+    <div class="w-[80%] mx-auto flex flex-col sm:flex-row justify-between items-center">
+        <div class=" ">
+            <h1 class="text-6xl uppercase"><span class="text-[#7ca805] font-[Bebas_Neue]">Be the Brand</span> <br>Of
+                Winter</h1>
+            <p class="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicin br elit veniam <br> maiores consequuntur
+                temporibus provident.</p>
+            <button
+                class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                    class="fa-solid fa-cart-plus"></i> Buy Now</button>
+        </div>
+        <div>
+            <img src="Img/Logo/banner-model.png" class="w-full" alt="">
+        </div>
+    </div>
+    <!-- Banner Ends -->
+
+
+
+    <!-- female Product Strat -->
+    <h1 class="w-[80%] uppercase mx-auto text-5xl font-[Bebas_Neue] mb-5 mt-10">Women Jacket</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 w-[80%] mx-auto">
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/f-jeket-1.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> Wyzesi Coat Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/f-jeket-2.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> Zinss Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/f-jeket-3.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> Black Coat Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  female Product End -->
+
+    <!-- Man T-shirt strat -->
+    <h1 class="w-[80%] uppercase mx-auto text-5xl font-[Bebas_Neue] mb-5 mt-10">men shirt</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 w-[80%] mx-auto">
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/Shirt-1.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> Swborad Coat Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/Shirt-2.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> Man Leather Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/Shirt-3.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> White Coat Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Man T-shirt End -->
+
+    <!-- Man Jacket Strat -->
+    <h1 class="w-[80%] uppercase mx-auto text-5xl font-[Bebas_Neue] mb-5 mt-10">men Jacket</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 w-[80%] mx-auto">
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/m-1.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> Swborad Coat Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/m-2.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> Man Leather Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="p-[18px] rounded-3xl shadow-xl">
+            <div class="bg-[#F1F1F1] flex justify-center py-5 rounded-3xl">
+                <img src="Img/Product/m-3.png" class="w-[250px]" alt="">
+            </div>
+            <div>
+                <h1 class="text-xl font-bold mt-[17px]"> White Coat Jacket</h1>
+                <p class="mt-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, placeat.</p>
+                <div class="flex items-center justify-between">
+                    <p class="text-3xl font-black text-[#f3a306]">$300</p>
+                    <button
+                        class="w-[170px] h-[60px] bg-linear-to-b from-[#74ec04] to-[#0fc118] rounded-lg text-white font-semibold uppercase mt-6"><i
+                            class="fa-solid fa-cart-plus"></i> Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Man Jacket End -->
+
+    <!-- Our Services strat   -->
+    <div class="w-[80%] mx-auto flex flex-col sm:flex-row justify-between items-center mt-10">
+        <div class="sm:w-[47%] mt-10 sm:mt-0">
+            <div class="flex flex-col text-center sm:text-left sm:flex-row p-5 mt-4 items-center rounded-xl shadow-xl">
+                <div>
+                    <img src="Img/Logo/house.png" class="w-[100px]" alt="">
+                </div>
+                <div class="ml-5">
+                    <h1 class="text-2xl font-bold">Find The Perfect</h1>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex flex-col text-center sm:text-left sm:flex-row  p-5 mt-4 items-center rounded-xl shadow-xl">
+                <div>
+                    <img src="Img/Logo/box.png" class="w-[100px]" alt="">
+                </div>
+                <div class="ml-5">
+                    <h1 class="text-2xl font-bold">Free Exchanges</h1>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="flex  flex-col text-center sm:text-left sm:flex-row p-5 mt-4 items-center rounded-xl shadow-xl">
+                <div>
+                    <img src="Img/Logo/contact.png" class="w-[100px]" alt="">
+                </div>
+                <div class="ml-5">
+                    <h1 class="text-2xl font-bold">Contact Our Saller</h1>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" sm:w-[47%] flex items-center">
+            <img src="Img/Product/Shopping.png" class="w-[90%]" alt="">
+        </div>
+    </div>
+    <!-- Our Services End  -->
+</body>
+
+</html>
